@@ -24,7 +24,7 @@ passwd.send_keys(Upasswd)
 loginButton = driver.find_element_by_id('login-form-submit').click()
 sleep(1)
 
-driver.get("https://10fastfingers.com/anticheat/view/1/1")
+driver.get("https://10fastfingers.com/anticheat/view/1/1") #change this with the link of the typing test you want to pass.
 driver.find_element_by_id("start-btn").click()
 sleep(0.5) #If you have slow internet please make this a little higher like 2 seconds.
 

@@ -31,7 +31,7 @@ sleep(0.5) #If you have slow internet please make this a little higher like 2 se
 TextImage = driver.find_element_by_xpath('/html/body/div[4]/div[1]/div[4]/div/div/div[3]/div[1]/img')
 TextImage.screenshot("C:\\Users\\ksd12\\scripts\\anticheatBypass\\text.png") #taking screenshot of the text
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = (r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe')
 img = cv2.imread("C:\\Users\\user\\scripts\\anticheatBypass\\text.png") #this should be the same path you saved the program + \\text.png
 text = pytesseract.image_to_string(img) #converting the img to string so we can use it
 

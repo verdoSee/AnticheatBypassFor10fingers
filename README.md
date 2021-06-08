@@ -9,5 +9,5 @@ Only works with English letters.
 
 Please check the comment i left at the sleep() in the for loop.
 
-This is for entertainment purposes only and im not responsible for any actions taken to your account or you.
+This is for entertainment purposes only and im not responsible for any actions taken to your account (e.g banned) or you.
  

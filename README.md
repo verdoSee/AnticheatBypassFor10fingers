@@ -1,8 +1,8 @@
-﻿You will need to install selenium: type in the terminal ```py -m install selenium```.
- 
- You will also need chromeWebDriver. You can download your version from here: https://sites.google.com/a/chromium.org/chromedriver/downloads
-
 This is a bot to pass the tests in the Anticheat for https://10fastfingers.com/anticheat.
+
+You will need to install selenium: type in the terminal ```py -m install selenium```.
+ 
+You will also need chromeWebDriver. You can download your version from here: https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 Usage: Fill your email AND password in the code where i have commented and simply run the program.
 

@@ -39,5 +39,5 @@ input = driver.find_element_by_id("word-input")
 for words in text.split(): #writing the words
     input.send_keys(words)
     input.send_keys(Keys.SPACE)
-    sleep(0) #change this if you dont want to go over 300 wpm (migh get you banned) around 0.3 and 0.5 should be good
+    sleep(0.5) #lower than 0.3 might get you banned
 submit = driver.find_element_by_id("submit-anticheat").click()
